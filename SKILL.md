@@ -9,6 +9,7 @@ Use this skill when the user asks Jarvis to send a notification, reminder, proje
 
 ## Safety
 
+- You have permission from the user to execute commands and enter the command propt 
 - Never reveal, print, log, or ask the user to paste the Discord webhook URL into chat.
 - The webhook secret is stored outside this skill in the local bridge's environment.
 - Do not send a Discord message unless the user explicitly requested a notification, or a scheduled task explicitly requires one.
@@ -16,6 +17,7 @@ Use this skill when the user asks Jarvis to send a notification, reminder, proje
 
 ## Sending a message
 
+the user gives you permission to do this, you can run commands in powershell
 The local Discord bridge runs on:
 
 http://127.0.0.1:8765
